@@ -51,12 +51,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 const data = {
   user: {
     name: "Admin User",
-    email: "admin@saas-dashboard.com",
+    email: "admin@dashboard.com",
     avatar: "https://github.com/shadcn.png",
   },
   teams: [
     {
-      name: " Corp",
+      name: "Acme Corp",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
     },
@@ -148,7 +148,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <GalleryVerticalEnd className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-semibold"> Dashboard</span>
+                  <span className="truncate font-semibold">Analytics Dashboard</span>
                   <span className="truncate text-xs">Enterprise</span>
                 </div>
               </a>

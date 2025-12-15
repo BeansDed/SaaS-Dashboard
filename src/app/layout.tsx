@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: " Analytics Dashboard",
-  description: "A professional, minimalist SaaS analytics dashboard.",
+  title: "Analytics Dashboard",
+  description: "A professional, minimalist analytics dashboard.",
 };
 
 export default function RootLayout({
