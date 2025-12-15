@@ -1,6 +1,7 @@
 {
   "name": "analytics-dashboard-app",
   "version": "0.1.0",
+  "homepage": "https://beansded.github.io/SaaS-Dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev",
